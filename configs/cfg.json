@@ -1,0 +1,39 @@
+{
+    "project": "tangaroa-vol-812-30",
+    "exp_name": "tangaroa-vol-812-30",
+    "entity": "aistream",
+    "epochs": 3,
+    "lmda": 0.01,
+    "lr": 1e-4,
+    "lr_drop": 1000000,
+    "batch_size": 1,
+    "eval_steps": 24360,
+    "log_images": true,
+
+    "model": {
+        "name": "StereoAttentionModelPlus",
+        "kwargs": {
+            "N": 192,
+            "M": 48
+        }
+    },
+
+    "train": {
+        "root": "../sasic-main/datasets/",
+        "name": "tangaroa-vol-v812-t30step3",
+        "debug": false
+    },
+
+    "eval": {
+        "root": "../sasic-main/datasets/",
+        "name": "tangaroa-vol-v812-t30",
+        "debug": false
+    },
+
+    "test": {
+        "root": "../sasic-main/datasets/",
+        "name": "tangaroa-vol-v812-t30",
+        "debug": false
+    }
+
+}
