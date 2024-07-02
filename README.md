@@ -7,9 +7,9 @@ This is the official pytorch implementation for the paper "FCNR: Fast Compressiv
 ![image](./figures/overview.png "Overview")
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="./figures/architecture1.png" alt="Encoders" style="width: 33%;">
-  <img src="./figures/architecture2.png" alt="Decoders" style="width: 33%;">
-  <img src="./figures/architecture3.png" alt="Stereo Context Modules" style="width: 33%;">
+  <img src="./figures/architecture1.png" alt="Encoders" style="width: 30%;">
+  <img src="./figures/architecture2.png" alt="Decoders" style="width: 30%;">
+  <img src="./figures/architecture3.png" alt="Stereo Context Modules" style="width: 30%;">
 </div>
 
 
