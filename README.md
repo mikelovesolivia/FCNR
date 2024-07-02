@@ -33,6 +33,9 @@ python train.py <gpu_idx> <exp_name> --config ./configs/<config_name>
 
 An example of the configuration file we use is `./configs/cfg.json`. You can follow it to implement on your customized dataset.
 
+## Results
+Here is a comparison between the results of FCNR and existing baselines:
+![image](./figures/results.png "Results")
 
 ## Citation
 ```
