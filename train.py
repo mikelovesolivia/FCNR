@@ -1,7 +1,7 @@
-import ecsic.models as models
-import ecsic.optimizers as optimizers
-import ecsic.schedulers as schedulers
-from ecsic import *
+import fcnr.models as models
+import fcnr.optimizers as optimizers
+import fcnr.schedulers as schedulers
+from fcnr import *
 
 import torch
 from torch.utils.data import DataLoader
@@ -45,7 +45,7 @@ def experiment(CFG):
     # initialize model
     model = getattr(models, CFG.model.name)(**CFG.model.kwargs)
     model = model.to(CFG.device)
-    model.load_state_dict(torch.load("/afs/crc.nd.edu/user/y/ylu25/Private/fcnr-ecsic/tangaroa-vol/model_2.pth"))
+    model.load_state_dict(torch.load("/afs/crc.nd.edu/user/y/ylu25/Private/fcnr-fcnr/tangaroa-vol/model_2.pth"))
     # wandb.watch(model, log_freq=100, log='all')
 
     # init optimizer and scheduler
