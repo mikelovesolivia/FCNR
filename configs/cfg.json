@@ -1,6 +1,6 @@
 {
-    "project": "tangaroa-vol-812-30",
-    "exp_name": "tangaroa-vol-812-30",
+    "project": "vortex",
+    "exp_name": "vortex-dvr",
     "entity": "aistream",
     "epochs": 3,
     "lmda": 0.01,
@@ -19,20 +19,20 @@
     },
 
     "train": {
-        "root": "../sasic-main/datasets/",
-        "name": "tangaroa-vol-v812-t30step3",
+        "root": "./datasets/vortex-volume-rendering-images",
+        "name": "vortex-train",
         "debug": false
     },
 
     "eval": {
-        "root": "../sasic-main/datasets/",
-        "name": "tangaroa-vol-v812-t30",
+        "root": "./datasets/vortex-volume-rendering-images",
+        "name": "vortex-eval",
         "debug": false
     },
 
     "test": {
-        "root": "../sasic-main/datasets/",
-        "name": "tangaroa-vol-v812-t30",
+        "root": "./datasets/vortex-volume-rendering-images",
+        "name": "vortex-test",
         "debug": false
     }
 
