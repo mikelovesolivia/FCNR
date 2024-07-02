@@ -35,7 +35,7 @@ An example of the configuration file we use is `./configs/cfg.json`. You can fol
 
 ## Results
 Here is a comparison between the results of FCNR and existing baselines:
-![image](./figures/results.png "Results")
+<img src="./figures/results.png" alt="Results" height=60% width=60% />
 
 ## Citation
 ```
