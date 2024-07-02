@@ -39,8 +39,8 @@ An example of the configuration file we use is `./configs/cfg.json`. You can fol
 @article{lu2024fcnr,
   title={FCNR: Fast Compressive Neural Representation of Visualization Images},
   author={Lu, Yunfei, Gu, Pengfei, and Wang, Chaoli},
-  journal={2024 IEEE Visualization and Visual Analytics (VIS)},
-  booktitle={2024},
+  booktitle={2024 IEEE Visualization and Visual Analytics (VIS)},
+  year={2024},
   note={Accepted}
 }
 ```
