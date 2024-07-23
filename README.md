@@ -40,9 +40,9 @@ Here is a comparison between the results of FCNR and existing baselines:
 ## Citation
 ```
 @article{lu2024fcnr,
-  title={FCNR: Fast Compressive Neural Representation of Visualization Images},
+  title={{FCNR}: Fast Compressive Neural Representation of Visualization Images},
   author={Lu, Yunfei, Gu, Pengfei, and Wang, Chaoli},
-  booktitle={2024 IEEE Visualization and Visual Analytics (VIS)},
+  booktitle={Proceedings of IEEE VIS Conference (Short Papers)},
   year={2024},
   note={Accepted}
 }
