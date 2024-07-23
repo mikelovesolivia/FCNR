@@ -318,7 +318,7 @@ if __name__ == "__main__":
     config = process_cli_arguments(args)
 
     # Initialize wandb
-    wandb.login(key='2cbe4ee2571f677fdb04808bd7a015d32f68307e')
+    wandb.login()
     wandb.init(group=config.exp_name, project=config.project, #entity=config.entity,
                 tags=config.tags, config=config, id=config.run_id, resume="allow")
     wandb.run.log_code('.')
