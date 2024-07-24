@@ -1,5 +1,5 @@
 # FCNR: Fast Compressive Neural Representation of Visualization Images
-### [Paper](*)
+### [Paper](http://arxiv.org/abs/2407.16369)
 Yunfei Lu, Pengfei Gu, Chaoli Wang
 
 This is the official pytorch implementation for the paper "FCNR: Fast Compressive Neural Representation of Visualization Images". 
